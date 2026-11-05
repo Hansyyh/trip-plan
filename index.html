@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>晋北5日行程 · 2026.12.2–12.6</title>
+<style>
+  :root{
+    --ink:#2d2a26; --muted:#6b655d; --line:#e3ded6; --bg:#f4f1ec; --card:#fffdf9;
+    --accent:#8b4a3a; --transport:#2b6cb0; --play:#2f855a; --rest:#8a7f73; --warnc:#b23b2e;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.6;}
+  .wrap{max-width:1150px;margin:0 auto;padding:28px 18px 60px;}
+  header{margin-bottom:18px;}
+  h1{font-size:24px;margin:0 0 6px;letter-spacing:.5px;}
+  .sub{color:var(--muted);font-size:14px;}
+  .facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;}
+  .fact{background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--muted);}
+
+  .table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card);}
+  table.main{width:100%;border-collapse:collapse;font-size:14px;min-width:940px;}
+  table.main th{background:#efe9e1;text-align:left;padding:11px 14px;font-weight:700;color:var(--muted);font-size:13px;white-space:nowrap;border-bottom:1px solid var(--line);}
+  table.main td{padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top;}
+  table.main tr:last-child td{border-bottom:none;}
+  td.date{white-space:nowrap;color:var(--accent);font-weight:700;width:112px;}
+  td.date small{display:block;color:var(--muted);font-weight:400;font-size:12px;margin-top:2px;}
+  td.route{width:168px;font-weight:600;}
+  td.stay{width:145px;color:var(--muted);}
+  td.content{min-width:520px;}
+
+  ul.detail{margin:0;padding:0;list-style:none;}
+  ul.detail li{display:flex;gap:8px;align-items:flex-start;padding:4px 0;border-bottom:1px dashed #ece6de;}
+  ul.detail li:last-child{border-bottom:none;}
+  .time{flex:0 0 112px;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .body{flex:1;min-width:0;}
+  .tag{display:inline-block;font-size:11px;font-weight:700;border-radius:4px;padding:0 6px;margin-right:5px;vertical-align:1px;}
+  .tag.transport{color:var(--transport);background:#e8f0fa;}
+  .tag.play{color:var(--play);background:#e6f4ec;}
+  .tag.rest{color:var(--rest);background:#f0ece7;}
+  .tag.warn{color:var(--warnc);background:#fbeae8;}
+  .dur{color:var(--muted);font-size:12.5px;}
+  .note-inline{color:var(--muted);font-size:12.5px;margin-top:2px;}
+
+  .ticket-box{background:#fff;border:1px solid var(--line);border-radius:14px;margin-top:26px;overflow:hidden;}
+  .ticket-head{background:#efe9e1;padding:12px 18px;font-weight:700;font-size:15px;color:var(--ink);border-bottom:1px solid var(--line);}
+  table.ticket{width:100%;border-collapse:collapse;font-size:13.5px;}
+  table.ticket th{text-align:left;padding:10px 14px;color:var(--muted);font-weight:600;font-size:12.5px;border-bottom:1px solid var(--line);background:#faf8f4;}
+  table.ticket td{padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top;}
+  table.ticket tr:last-child td{border-bottom:none;}
+  .status-ok{color:#2f855a;font-weight:700;font-size:12.5px;}
+  .status-tight{color:#b7791f;font-weight:700;font-size:12.5px;}
+  .status-closed{color:var(--warnc);font-weight:700;font-size:12.5px;}
+
+  @media (max-width:640px){
+    .wrap{padding:20px 12px 50px;}
+    h1{font-size:21px;}
+    table.main{font-size:13.5px;min-width:900px;}
+    td.content{min-width:480px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>晋北 5 日行程</h1>
+  <div class="sub">2026年12月2日（周三）— 12月6日（周日）｜5天4晚</div>
+  <div class="facts">
+    <span class="fact">太原 1 晚（市中心/太原站旁）</span>
+    <span class="fact">大同 1 晚（古城附近）</span>
+    <span class="fact">五台山台怀镇 2 晚</span>
+    <span class="fact">必选项：云冈石窟 · 悬空寺 · 五台山</span>
+  </div>
+</header>
+
+<div class="table-scroll">
+  <table class="main">
+    <thead>
+      <tr>
+        <th>日期 / 星期</th>
+        <th>行程主线</th>
+        <th>每日内容（交通方式 · 交通时间 · 游玩时间）</th>
+        <th>住宿</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- D1 -->
+      <tr>
+        <td class="date">12月2日<small>周三</small></td>
+        <td class="route">太原落地 · 初探晋魂</td>
+        <td class="content">
+          <ul class="detail">
+            <li><span class="time">11:30–12:15</span><span class="body"><span class="tag transport">交通</span>太原武宿机场 → 市区酒店（市中心/太原站旁）<br><span class="dur">落地出机场后约 11:30 出发；打车约 35–45 分钟</span></span></li>
+            <li><span class="time">12:15–13:30</span><span class="body"><span class="tag rest">午餐</span>酒店附近安顿、吃午饭</span></li>
+            <li><span class="time">14:00–16:30</span><span class="body"><span class="tag play">游玩</span>山西博物院（免费，需提前预约；周三正常开放）<br><span class="dur">市区打车约 15–20 分钟；参观约 2.5 小时</span></span></li>
+            <li><span class="time">18:00–19:30</span><span class="body"><span class="tag rest">晚餐</span>钟楼街一带：刀削面、莜面栲栳栳；早睡，次日从太原站出发</span></li>
+          </ul>
+        </td>
+        <td class="stay">太原市中心或太原站旁</td>
+      </tr>
+
+      <!-- D2 -->
+      <tr>
+        <td class="date">12月3日<small>周四</small></td>
+        <td class="route">太原 → 大同<br>云冈石窟 + 大同古城</td>
+        <td class="content">
+          <ul class="detail">
+            <li><span class="time">08:56–10:37</span><span class="body"><span class="tag transport">动车·推荐</span><b>D2790</b> 太原站 → 大同南<br><span class="dur">1 小时 41 分 · 二等座约 111 元</span></span></li>
+            <li><span class="time">09:36–10:59</span><span class="body"><span class="tag transport">动车·备选</span><b>D1152</b> 太原站 → 大同南<br><span class="dur">1 小时 23 分 · 二等座约 118 元</span></span></li>
+            <li><span class="time">10:37–11:15</span><span class="body"><span class="tag transport">打车</span>大同南站 → 古城附近酒店，约 30–40 分钟</span></li>
+            <li><span class="time">11:15–11:35</span><span class="body"><span class="tag rest">放行李</span>酒店办理寄存/入住，轻装出发</span></li>
+            <li><span class="time">11:35–12:15</span><span class="body"><span class="tag transport">打车</span>古城酒店 → 云冈石窟，约 30–40 分钟</span></li>
+            <li><span class="time">12:15–15:15</span><span class="body"><span class="tag play">游玩</span>云冈石窟（淡季 8:30–16:30，15:30 停止入园，门票 100 元）<br><span class="dur">游览约 3 小时；第20窟露天大佛是重点</span></span></li>
+            <li><span class="time">15:15–16:00</span><span class="body"><span class="tag transport">打车</span>云冈石窟 → 华严寺，约 35–40 分钟</span></li>
+            <li><span class="time">16:00–17:00</span><span class="body"><span class="tag warn">游玩·时间紧</span>华严寺（淡季 8:30–17:00 停止入园，门票 40 元）<br><span class="dur">仅约 1 小时，入寺后直奔薄伽教藏殿</span></span></li>
+            <li><span class="time">17:00–18:00</span><span class="body"><span class="tag play">弹性</span>大同古城墙，傍晚看古城轮廓<br><span class="dur">若华严寺超时，此项直接放弃</span></span></li>
+            <li><span class="time">18:30</span><span class="body"><span class="tag rest">晚餐 / 住宿</span>住大同古城附近，羊杂、黄米凉糕</span></li>
+          </ul>
+        </td>
+        <td class="stay">大同古城附近</td>
+      </tr>
+
+      <!-- D3 · 下午核心集群只走一次 -->
+      <tr>
+        <td class="date">12月4日<small>周五</small></td>
+        <td class="route">大同 → 悬空寺<br>→ 五台山台怀镇</td>
+        <td class="content">
+          <ul class="detail">
+            <li><span class="time">09:00–10:30</span><span class="body"><span class="tag transport">包车</span>大同古城酒店 → 浑源悬空寺，约 1.5 小时</span></li>
+            <li><span class="time">10:30–12:00</span><span class="body"><span class="tag play">游玩</span>悬空寺（冬季 8:30–16:30；登临票需提前预约）<br><span class="dur">游览约 1.5 小时</span></span></li>
+            <li><span class="time">12:00–14:00</span><span class="body"><span class="tag transport">包车</span>悬空寺 → 五台山台怀镇，约 2 小时，中途简餐</span></li>
+            <li><span class="time">14:30–15:00</span><span class="body"><span class="tag rest">入住</span>台怀镇酒店</span></li>
+            <li><span class="time">15:00–15:20</span><span class="body"><span class="tag play">游玩</span>五爷庙（万佛阁，香火最旺）<br><span class="dur">约 20 分钟</span></span></li>
+            <li><span class="time">15:25–15:55</span><span class="body"><span class="tag play">游玩</span>塔院寺（大白塔，顺时针绕塔）<br><span class="dur">约 30 分钟</span></span></li>
+            <li><span class="time">16:00–16:40</span><span class="body"><span class="tag play">游玩</span>显通寺（开山祖寺，铜殿、无梁殿）<br><span class="dur">约 40 分钟</span></span></li>
+            <li><span class="time">16:45–17:15</span><span class="body"><span class="tag play">游玩</span>菩萨顶（皇家寺庙，登顶俯瞰台怀镇）<br><span class="dur">约 30 分钟；17:00 停止入园，已入园可继续</span></span></li>
+          </ul>
+          <div class="note-inline">五爷庙 → 塔院寺 → 显通寺 → 菩萨顶 四寺紧邻，步行串联，全程约 1.2 公里，路线顺、不走回头路。D4 不再重复这四座寺。</div>
+        </td>
+        <td class="stay">台怀镇</td>
+      </tr>
+
+      <!-- D4 · 黛螺顶 + 殊像寺 + 罗睺寺，核心集群不重复 -->
+      <tr>
+        <td class="date">12月5日<small>周六</small></td>
+        <td class="route">五台山台怀镇全天</td>
+        <td class="content">
+          <ul class="detail">
+            <li><span class="time">09:00–10:30</span><span class="body"><span class="tag play">游玩</span><b>黛螺顶“小朝台”</b>（冬令时 8:00–<b>16:00</b> 闭园，12月索道关闭，只能步行台阶）<br><span class="dur">第一站，步行往返约 1.5 小时，10:30 前下山</span></span></li>
+            <li><span class="time">10:45–11:25</span><span class="body"><span class="tag play">游玩</span>殊像寺（近 10 米高文殊菩萨彩塑）<br><span class="dur">约 40 分钟；从黛螺顶过桥步行约 10 分钟</span></span></li>
+            <li><span class="time">11:30–12:30</span><span class="body"><span class="tag rest">午餐</span>台怀镇</span></li>
+            <li><span class="time">13:30–14:10</span><span class="body"><span class="tag play">游玩</span>罗睺寺（五台山十大青庙之一，看“开花现佛”木制机关）<br><span class="dur">约 40 分钟；从殊像寺步行约 15–20 分钟</span></span></li>
+            <li><span class="time">14:30–16:00</span><span class="body"><span class="tag play">游玩</span>广化寺（白天看建筑，若晚上还有精力可再来看夜景灯光）<br><span class="dur">约 1 小时；从罗睺寺步行约 10 分钟</span></span></li>
+          </ul>
+          <div class="note-inline"><b>路线说明：</b>D3 已完整走完五爷庙、塔院寺、显通寺、菩萨顶，D4 不再重复。D4 动线为 黛螺顶（东）→ 殊像寺（南）→ 罗睺寺（北核心区补充）→ 广化寺（东北），形成环线，不是简单折返。罗睺寺是 D3 未去的新内容，与显通寺相邻但不重复。</div>
+        </td>
+        <td class="stay">台怀镇</td>
+      </tr>
+
+      <!-- D5 -->
+      <tr>
+        <td class="date">12月6日<small>周日</small></td>
+        <td class="route">五台山 → 太原机场<br>返程</td>
+        <td class="content">
+          <ul class="detail">
+            <li><span class="time">09:00–10:00</span><span class="body"><span class="tag play">补漏</span>台怀镇补一两个小寺庙，或从容退房、整理行李</span></li>
+            <li><span class="time">10:00–13:30</span><span class="body"><span class="tag transport">大巴</span>五台山台怀镇 → 太原武宿机场<br><span class="dur">车程约 3.5 小时；直达机场，提前通过“山西文旅行”等平台查询购票</span></span></li>
+            <li><span class="time">13:30–14:00</span><span class="body"><span class="tag rest">抵达</span>太原武宿机场，值机、安检</span></li>
+            <li><span class="time">18:00</span><span class="body"><span class="tag transport">返程</span>太原武宿机场起飞</span></li>
+          </ul>
+        </td>
+        <td class="stay">—</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<!-- 需提前购票/预约的景点清单 -->
+<div class="ticket-box">
+  <div class="ticket-head">需提前购票 / 预约的景点清单 · 营业时间与行程冲突核对</div>
+  <table class="ticket">
+    <thead>
+      <tr>
+        <th>景点 / 项目</th>
+        <th>预约渠道 & 提前量</th>
+        <th>门票 / 费用</th>
+        <th>冬季营业时间</th>
+        <th>对应行程</th>
+        <th>冲突判断</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>山西博物院</b></td>
+        <td>官方公众号预约，提前 1–3 天</td>
+        <td>免费</td>
+        <td>9:00–17:00（16:00 停止入馆），周一闭馆</td>
+        <td>D1 12/2 周三 14:00–16:30</td>
+        <td><span class="status-ok">✓ 兼容</span></td>
+      </tr>
+      <tr>
+        <td><b>云冈石窟</b></td>
+        <td>“云冈研究院”小程序，提前 1–15 天分时段预约</td>
+        <td>淡季 100 元</td>
+        <td>8:30–16:30，<b>15:30 停止入园</b></td>
+        <td>D2 12/3 周四 12:15–15:15</td>
+        <td><span class="status-ok">✓ 兼容</span></td>
+      </tr>
+      <tr>
+        <td><b>华严寺</b></td>
+        <td>“华严寺景区”公众号，建议提前 1 天</td>
+        <td>淡季 40 元</td>
+        <td>8:30–17:00，<b>17:00 停止入园</b></td>
+        <td>D2 12/3 周四 16:00–17:00</td>
+        <td><span class="status-tight">△ 偏紧</span> 仅约 1 小时，需直奔核心殿</td>
+      </tr>
+      <tr>
+        <td><b>悬空寺登临</b></td>
+        <td>“北岳云游”小程序，提前 7 天预约登临票</td>
+        <td>入园 15 元 + 登临 100 元</td>
+        <td>8:30–16:30</td>
+        <td>D3 12/4 周五 10:30–12:00</td>
+        <td><span class="status-ok">✓ 兼容</span></td>
+      </tr>
+      <tr>
+        <td><b>五台山进山门票</b></td>
+        <td>“五台山游客服务中心”公众号，提前 1 天</td>
+        <td>135 元</td>
+        <td>淡季 7:30–18:00，<b>17:00 停止入园</b></td>
+        <td>D3 12/4 下午抵达</td>
+        <td><span class="status-ok">✓ 兼容</span></td>
+      </tr>
+      <tr>
+        <td><b>塔院寺 / 显通寺 / 菩萨顶</b></td>
+        <td>现场购票（各约 10 元），无需复杂预约</td>
+        <td>各约 10 元</td>
+        <td>约 8:00–17:00</td>
+        <td>D3 12/4 下午 15:00–17:15</td>
+        <td><span class="status-ok">✓ 兼容</span> 17:00 停止入园前已进入，菩萨顶 16:45 入园可行</td>
+      </tr>
+      <tr>
+        <td><b>黛螺顶</b></td>
+        <td>现场购票（约 8 元），无需复杂预约</td>
+        <td>约 8 元</td>
+        <td>冬令时 8:00–<b>16:00</b>，12 月索道关闭，仅步行</td>
+        <td>D4 12/5 周六 09:00–10:30</td>
+        <td><span class="status-ok">✓ 已调整兼容</span> 上午首站，时间充裕</td>
+      </tr>
+      <tr>
+        <td><b>罗睺寺</b></td>
+        <td>现场购票（约 6 元）</td>
+        <td>约 6 元</td>
+        <td>约 8:00–17:00</td>
+        <td>D4 12/5 周六 13:30–14:10</td>
+        <td><span class="status-ok">✓ 兼容</span> D3 未去的新内容，不重复</td>
+      </tr>
+      <tr>
+        <td><b>广化寺</b></td>
+        <td>现场购票（约 10 元）</td>
+        <td>约 10 元</td>
+        <td>约 8:00–17:00；夜景灯光另计</td>
+        <td>D4 12/5 周六 14:30–16:00</td>
+        <td><span class="status-ok">✓ 兼容</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+</body>
+</html>
